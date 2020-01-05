@@ -17,7 +17,7 @@ app.use(require('./routes/usuario'))
 
 mongoose.connect(process.env.URLDB, {
   useNewUrlParser: true,
-  // useCreateIndex: true  // en el tutorial sale error si no se coloca
+  useCreateIndex: true  // en el tutorial sale error si no se coloca
 
   // useUnifiedTopology: true
 })
